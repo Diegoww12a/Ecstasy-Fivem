@@ -22,7 +22,7 @@ video.controls = false; // tira tudo
 
 const play = document.getElementById("play")
 
-play.src = "/video loop.webm"
+play.src = "/video-loop.webm"
 play.autoplay = true;
 play.muted = true;
 play.loop = true;
