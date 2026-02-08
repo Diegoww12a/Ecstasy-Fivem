@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig(({ mode }) => ({
   base: mode === 'github'
-    ? '/Cheat-stopped-2.0/'
+    ? '/Ecstasy-Fivem/'
     : '/',
   server: {
     port: 5173,
