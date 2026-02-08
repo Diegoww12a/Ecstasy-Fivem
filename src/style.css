@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+#video {
+ 
+  object-fit: cover; 
+}
+
+body {
+   
+     font-family: 'Poppins', sans-serif;
+  
+}
+
+.btn {
+  /* display: flex; */
+  align-items: center;
+  gap: 8px;
+}
+
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+.animate-float {
+  animation: float 1.5s ease-in-out infinite;
+}
+
+
+.card {
+  background-image: url("wall.png");
+  background-size: cover;
+  background-position: center;
+   background-repeat: no-repeat;
+}
+
+.card2 {
+  background-image: url("nvidia.png");
+  background-size: cover;
+  background-position: center;
+   background-repeat: no-repeat;
+}
+
+.card3 {
+  background-image: url("guard.png");
+  background-size: cover;
+  background-position: center;
+   background-repeat: no-repeat;
+}
+
+.css {
+  background: #9D22EB;
+  color: white;
+background: linear-gradient(90deg,rgba(157, 34, 235, 1) 27%, rgba(222, 0, 123, 1) 53%, rgba(62, 100, 236, 1) 88%);
+}
+
+* {
+  /* outline: 1px solid red; */
+}
