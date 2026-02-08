@@ -12,22 +12,22 @@ botao.addEventListener("click", () => {
 
 const video = document.getElementById("video");
 
-video.src = "/cheat.mp4";
+video.src = "./cheat.mp4";
 video.autoplay = true;
-video.muted = true;      // obrigatório pra autoplay
+video.muted = true;
 video.loop = true;
 video.playsInline = true;
-video.controls = false; // tira tudo
+video.controls = false;
 
+const play = document.getElementById("play");
 
-const play = document.getElementById("play")
-
-play.src = "/video-loop.webm"
+play.src = "./video-loop.webm";
 play.autoplay = true;
 play.muted = true;
 play.loop = true;
 play.playsInline = true;
 play.controls = false;
+
 
 
 
